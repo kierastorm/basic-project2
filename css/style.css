@@ -3,6 +3,7 @@ body {
   color: #444;
   font-size: 16px;
   font-family: 'Gentium Book Basic', serif;
+  display: center;
 }
 p {
   margin-bottom: .67em;
@@ -18,8 +19,13 @@ footer {
 /*-- Main Menu Styles--*/
 nav ul {
   list-style: none;
-  padding: 1em;
   display:flex;
+  flex-direction: row;
+  justify-content:center;
+  padding: 1em;
+  margin-left: center;
+  margin-right: center;
+
 }
 nav a:link, nav a:visited {
   color: #D0D0D0;
@@ -40,11 +46,11 @@ header {
 }
 header img {
   width: 100%;
-  margin: 0 auto;
+  margin: 0 center;
 }
 header h1 {
-  margin: 0 auto;
-  padding: 0 auto;
+  margin: 0 center;
+  padding: 0 center;
 }
 .small {
   margin-top: 1em;
