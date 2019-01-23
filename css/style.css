@@ -22,7 +22,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #656d5c;
+  background-color: #ADD8E6;
   text-decoration: Lato
 }
 
@@ -30,7 +30,7 @@ ul {
 nav ul {
   display: flex;
   flex-direction: row;
-  color: 333;
+  color: #ADD8E6;
   justify-content: space-around;
   padding: 14px 16px;
   text-decoration: Lato;
