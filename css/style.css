@@ -18,10 +18,10 @@ footer {
 }
 /*-- Main Menu Styles--*/
 nav ul {
-  list-style: none;
-  display:flex;
+  .flex-container
+  display: flex;
   flex-direction: row;
-  justify-content:center;
+  justify-content: center;
   padding: 1em;
   margin-left: center;
   margin-right: center;
